@@ -6,27 +6,27 @@ Demo repository showing C# 11 and C# 10 features
 List of new C# features:
 
 The following feature is available in Visual Studio 2022 version 17.4:
-- [] File-scoped types
+- [ ] File-scoped types
 
 The following features are available in Visual Studio 2022 version 17.3:
-- [] Generic math support
-- [] Auto-default structs
-- [] Pattern match Span<char> on a constant string
-- [] Extended nameof scope
-- [] Numeric IntPtr
-- [] UTF-8 string literals
-- [] Required members
-- [] ref fields and scoped ref
+- [ ] Generic math support
+- [ ] Auto-default structs
+- [ ] Pattern match Span<char> on a constant string
+- [ ] Extended nameof scope
+- [ ] Numeric IntPtr
+- [ ] UTF-8 string literals
+- [ ] Required members
+- [ ] ref fields and scoped ref
 
 The following features are available in Visual Studio 2022 version 17.2:
-- [] Raw string literals
-- [] Improved method group conversion to delegate
-- [] Warning wave 7
+- [ ] Raw string literals
+- [ ] Improved method group conversion to delegate
+- [ ] Warning wave 7
 - 
 The following features are available in Visual Studio 2022 version 17.1:
-- [] Generic attributes
-- [] Newlines in string interpolation expressions
-- [] List patterns
+- [ ] Generic attributes
+- [ ] Newlines in string interpolation expressions
+- [ ] List patterns
 
 # Sources
 [C# language versioning - C# Guide | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
