@@ -6,7 +6,7 @@ Demo repository showing C# 11 and C# 10 features
 List of new C# features:
 
 The following feature is available in Visual Studio 2022 version 17.4:
-- [ ] File-scoped types
+- [x] [File-scoped types](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#file-scoped-types)
 
 The following features are available in Visual Studio 2022 version 17.3:
 - [ ] Generic math support
@@ -54,3 +54,7 @@ Microsoft sources:
 
 ## Presentation
 Use https://github.com/hakimel/reveal.js/
+
+## Inspecting compiled C#
+
+ILSpy - https://apps.microsoft.com/store/detail/ilspy/9MXFBKFVSQ13?hl=en-us&gl=us
