@@ -19,7 +19,7 @@ The following features are available in Visual Studio 2022 version 17.3:
 - [x] [ref fields and scoped ref](https://prographers.com/blog/c-11-ref-fields-and-ref-scoped-variable)
 
 The following features are available in Visual Studio 2022 version 17.2:
-- [ ] Raw string literals
+- [ ] [Raw string literals](https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/#raw-string-literals)
 - [ ] Improved [method group conversion](https://www.demo2s.com/csharp/csharp-delegate-method-group-conversion.html) to delegate
 - [ ] Warning wave 7
 - 

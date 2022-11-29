@@ -2,9 +2,9 @@
 
 using System.Text;
 
-public static class Utf8StringLiterals
+public class Utf8StringLiterals : IFeature
 {
-    public static void RunChecks()
+    public static void ShowFeature()
     {
         // C# 10
         //byte[] array = Encoding.UTF8.GetBytes("Hello UTF-8 String Literals");

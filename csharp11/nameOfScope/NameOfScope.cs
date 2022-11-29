@@ -16,7 +16,7 @@ public class NameOfScope
     public void Method(int foo, [My(nameof(foo))] int anotherParam)
     { }
 
-    public static void RunChecks()
+    public static void ShowFeature()
     {
         var method = typeof(NameOfScope).GetMethod(nameof(Method))!;
         var methodAttribute = method.GetCustomAttribute<MyAttribute>()!;

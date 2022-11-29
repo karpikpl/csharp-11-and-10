@@ -25,7 +25,7 @@ public class Person
         return $"{FirstName} {MiddleName} {LastName}";
     }
 
-    public static void RunChecks()
+    public static void ShowFeature()
     {
         var person = new Person("John 1", "Doe");
         Console.WriteLine($"Created Person 1: {person}");

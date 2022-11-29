@@ -52,25 +52,30 @@ Console.WriteLine();
 
 // ----------------------------------------------
 Console.WriteLine("Pattern matching on Char Span");
-PatternMatchSpan.RunChecks();
+PatternMatchSpan.ShowFeature();
 Console.WriteLine();
 
 // ----------------------------------------------
 Console.WriteLine("Extended nameof scope");
-NameOfScope.RunChecks();
+NameOfScope.ShowFeature();
 Console.WriteLine();
 
 // ----------------------------------------------
 Console.WriteLine("UTF-8 string literals");
-Utf8StringLiterals.RunChecks();
+Utf8StringLiterals.ShowFeature();
 Console.WriteLine();
 
 // ----------------------------------------------
 Console.WriteLine("Required members");
-Person.RunChecks();
+Person.ShowFeature();
 Console.WriteLine();
 
 // ----------------------------------------------
 Console.WriteLine("ref fields and ref scoped variable");
-ScopedRef.RunChecks();
+ScopedRef.ShowFeature();
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("Raw string literals");
+RawStringLiterals.ShowFeature();
 Console.WriteLine();

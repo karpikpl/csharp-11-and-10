@@ -1,6 +1,6 @@
 public static class PatternMatchSpan
 {
-    public static void RunChecks()
+    public static void ShowFeature()
     {
         var span = "Hello, World!".AsSpan();
 
