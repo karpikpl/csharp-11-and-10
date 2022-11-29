@@ -25,6 +25,8 @@ namespace CSharp10_Demo.ArgumentExpressions
 
             Console.WriteLine("Press Enter to Exit");
             Console.ReadLine();
+
+            var pt = new PartialType();
         }
 
         public static void ValidateArgument(string parameterName, bool condition, [CallerArgumentExpression("condition")] string? message = null)
