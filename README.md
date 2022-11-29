@@ -9,7 +9,7 @@ The following feature is available in Visual Studio 2022 version 17.4:
 - [x] [File-scoped types](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#file-scoped-types)
 
 The following features are available in Visual Studio 2022 version 17.3:
-- [ ] Generic math support
+- [x] [Generic math support](https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/)
 - [ ] Auto-default structs
 - [ ] Pattern match Span<char> on a constant string
 - [ ] Extended nameof scope
