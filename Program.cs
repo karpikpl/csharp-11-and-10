@@ -59,3 +59,18 @@ Console.WriteLine();
 Console.WriteLine("Extended nameof scope");
 NameOfScope.RunChecks();
 Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("UTF-8 string literals");
+Utf8StringLiterals.RunChecks();
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("Required members");
+Person.RunChecks();
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("ref fields and ref scoped variable");
+ScopedRef.RunChecks();
+Console.WriteLine();
