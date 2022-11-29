@@ -1,7 +1,11 @@
-public static class PatternMatchSpan
+// ref: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#pattern-match-spanchar-or-readonlyspanchar-on-a-constant-string
+
+public class PatternMatchSpan : IFeature
 {
     public static void ShowFeature()
     {
+        Console.WriteLine("-----> Pattern matching on Char Span");
+
         var span = "Hello, World!".AsSpan();
 
         Console.WriteLine($"My span \"{span}\":");
@@ -30,5 +34,7 @@ public static class PatternMatchSpan
         {
             Console.WriteLine("\tIs Hello, World!");
         }
+
+        Console.WriteLine();
     }
 }

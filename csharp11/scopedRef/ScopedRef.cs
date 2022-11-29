@@ -1,3 +1,5 @@
+// ref: https://prographers.com/blog/c-11-ref-fields-and-ref-scoped-variable
+
 public class ScopedRef : IFeature
 {
     ref struct Test
@@ -20,8 +22,12 @@ public class ScopedRef : IFeature
 
     public static void ShowFeature()
     {
+        Console.WriteLine("-----> ref fields and ref scoped variable");
+
         // value declared on the stack
         Span<char> values = stackalloc char[3] { 'T', 'o', 'm' };
         new Test().TestMethod(values);
+
+        Console.WriteLine();
     }
 }

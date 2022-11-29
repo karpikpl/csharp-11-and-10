@@ -1,4 +1,6 @@
+// ref: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#extended-nameof-scope
 // from: https://github.com/Burgyn/Sample.CSharp11/blob/main/Program.cs
+
 using System.Reflection;
 
 public class MyAttribute : Attribute
@@ -18,11 +20,15 @@ public class NameOfScope
 
     public static void ShowFeature()
     {
+        Console.WriteLine("-----> Extended nameof scope");
+
         var method = typeof(NameOfScope).GetMethod(nameof(Method))!;
         var methodAttribute = method.GetCustomAttribute<MyAttribute>()!;
         Console.WriteLine($"Method attribute param name: {methodAttribute.ParamName}");
 
         var myAttribute = method.GetParameters()[1].GetCustomAttribute<MyAttribute>()!;
         Console.WriteLine($"Param attribute param name: {myAttribute.ParamName}");
+
+        Console.WriteLine();
     }
 }

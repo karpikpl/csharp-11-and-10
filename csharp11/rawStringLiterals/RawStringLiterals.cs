@@ -1,9 +1,11 @@
 // ref: https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/#raw-string-literals
 
-public static class RawStringLiterals
+public class RawStringLiterals : IFeature
 {
     public static void ShowFeature()
     {
+        Console.WriteLine("-----> Raw string literals");
+
         var raw1 = """This\is\all "content"!""";
         Console.WriteLine(raw1);
 
@@ -33,5 +35,6 @@ public static class RawStringLiterals
         //  ^white space left of here is removed
 
         Console.WriteLine(json);
+        Console.WriteLine();
     }
 }

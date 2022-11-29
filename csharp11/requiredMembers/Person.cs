@@ -1,6 +1,7 @@
+// ref: https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/#required-members
 using System.Diagnostics.CodeAnalysis;
 
-public class Person
+public class Person : IFeature
 {
     public required string FirstName { get; init; }
     public string? MiddleName { get; init; }
@@ -27,6 +28,8 @@ public class Person
 
     public static void ShowFeature()
     {
+        Console.WriteLine("-----> Required members");
+
         var person = new Person("John 1", "Doe");
         Console.WriteLine($"Created Person 1: {person}");
 
@@ -40,5 +43,7 @@ public class Person
         // Person person4 = new Person("John") { LastName = "Doe" };
         // Person person5 = new Person("John");
         // Person person6 = new();
+
+        Console.WriteLine();
     }
 }
