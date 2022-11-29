@@ -25,7 +25,7 @@
             Console.ReadLine();
         }
 
-        private static bool CheckName(Person_ReferenceType prt, Person_ValueType pvt, Person_Class pc) 
+        private static bool CheckName(Person_ReferenceType prt, Person_ValueType pvt, Person_Class pc)
         {
             if (prt.LastName == "Peter")
             {

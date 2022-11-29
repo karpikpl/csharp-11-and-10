@@ -19,7 +19,7 @@ public class GenericAttribute<T> : Attribute
     public GenericAttribute(T value) => MyProperty = value;
 }
 
-// After C#
+// After C# 11
 [Generic<int>(5)]
 public class GenericAttributes : IFeature
 {

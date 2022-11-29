@@ -1,5 +1,5 @@
 // ref: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#pattern-match-spanchar-or-readonlyspanchar-on-a-constant-string
-
+// more about Span: https://learn.microsoft.com/en-us/archive/msdn-magazine/2018/january/csharp-all-about-span-exploring-a-new-net-mainstay
 public class PatternMatchSpan : IFeature
 {
     public static void ShowFeature()
