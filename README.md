@@ -19,14 +19,14 @@ The following features are available in Visual Studio 2022 version 17.3:
 - [x] [ref fields and scoped ref](https://prographers.com/blog/c-11-ref-fields-and-ref-scoped-variable)
 
 The following features are available in Visual Studio 2022 version 17.2:
-- [ ] [Raw string literals](https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/#raw-string-literals)
+- [x] [Raw string literals](https://devblogs.microsoft.com/dotnet/welcome-to-csharp-11/#raw-string-literals)
 - [ ] Improved [method group conversion](https://www.demo2s.com/csharp/csharp-delegate-method-group-conversion.html) to delegate
 - [ ] Warning wave 7
 - 
 The following features are available in Visual Studio 2022 version 17.1:
-- [ ] Generic attributes
-- [ ] Newlines in string interpolation expressions
-- [ ] List patterns
+- [x] [Generic attributes](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#generic-attributes)
+- [x] [Newlines in string interpolation expressions](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#newlines-in-string-interpolations)
+- [x] [List patterns](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#list-patterns)
 
 # Sources
 [C# language versioning - C# Guide | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
@@ -43,7 +43,7 @@ Community content:
 - [David Fowlers' Todo Sample App](https://github.com/davidfowl/TodoApi)
 - [C# 11 features](https://github.com/martindisch/CSharp11Features)
 - [A Mostly Complete Guide to C# 11’s Final Features](https://medium.com/young-coder/a-mostly-complete-guide-to-c-11s-final-features-d43e6c9aa727)
-- [](https://prographers.com/blog/c-11-ref-fields-and-ref-scoped-variable)
+- [C# 11 – ref fields and ref scoped variable](https://prographers.com/blog/c-11-ref-fields-and-ref-scoped-variable)
 - https://github.com/Burgyn/Sample.CSharp11/blob/main/Program.cs
 - https://github.com/karenpayneoregon/csharp-11-ef-core-7-features
 - https://github.com/RoundTheCode/CSharp11

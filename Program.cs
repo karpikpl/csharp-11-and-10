@@ -36,3 +36,9 @@ ScopedRef.ShowFeature();
 
 // ----------------------------------------------
 RawStringLiterals.ShowFeature();
+
+// ----------------------------------------------
+GenericAttributes.ShowFeature();
+
+// -------------
+ListPatterns.ShowFeature();
