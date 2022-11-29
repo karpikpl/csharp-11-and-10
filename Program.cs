@@ -1,4 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// helper method
+ void CallWithTry(Action action)
+{
+    try
+    {
+        action();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+}
+
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Below some of the C# 11 features");
 Console.WriteLine();
 
@@ -18,4 +31,31 @@ var totalDec = new Total<decimal>();
 totalDec++;
 totalDec++;
 Console.WriteLine($"Total decimal is {totalDec.Value} after two ++");
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("Other uses of static abstract members in interfaces");
+new Dog().NumberOfLegs();
+new Snake().NumberOfLegs();
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("The C# 11 compiler ensures that all fields of a struct type are initialized to their default value as part of executing a constructor");
+var autoStruct = new AutoStruct();
+Console.WriteLine($"AutoStruct has default values for all fields: {autoStruct.X}, {autoStruct.Name}, {autoStruct.Value}");
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("The !! null check operator");
+CallWithTry(() => ClassWithChecks.ValidateParams(null));
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("Pattern matching on Char Span");
+PatternMatchSpan.RunChecks();
+Console.WriteLine();
+
+// ----------------------------------------------
+Console.WriteLine("Extended nameof scope");
+NameOfScope.RunChecks();
 Console.WriteLine();

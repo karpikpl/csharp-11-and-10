@@ -10,9 +10,9 @@ The following feature is available in Visual Studio 2022 version 17.4:
 
 The following features are available in Visual Studio 2022 version 17.3:
 - [x] [Generic math support](https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/)
-- [ ] Auto-default structs
-- [ ] Pattern match Span<char> on a constant string
-- [ ] Extended nameof scope
+- [x] [Auto-default structs](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#auto-default-struct)
+- [x] [Pattern match `Span<char>` on a constant string](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#pattern-match-spanchar-or-readonlyspanchar-on-a-constant-string)
+- [x] [Extended `nameof` scope](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#extended-nameof-scope)
 - [ ] Numeric IntPtr
 - [ ] UTF-8 string literals
 - [ ] Required members
