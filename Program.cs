@@ -1,5 +1,5 @@
 ﻿// helper method
- void CallWithTry(Action action)
+void CallWithTry(Action action)
 {
     try
     {

@@ -1,7 +1,7 @@
 using System.Numerics;
 
 public class Total<T> : IIncrementOperators<Total<T>>
-    where T: INumber<T>
+    where T : INumber<T>
 {
     public T Value { get; private set; } = T.Zero;
 

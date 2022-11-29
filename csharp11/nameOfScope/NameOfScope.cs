@@ -3,7 +3,7 @@ using System.Reflection;
 
 public class MyAttribute : Attribute
 {
-    public string ParamName {get; private set;}
+    public string ParamName { get; private set; }
 
     public MyAttribute(string paramName)
     {
