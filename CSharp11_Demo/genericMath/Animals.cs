@@ -15,7 +15,8 @@ public class StaticInInterfaces : IFeature
         NumberOfLegs(new Dog());
         NumberOfLegs(new Snake());
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }
 

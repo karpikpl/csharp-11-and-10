@@ -44,6 +44,7 @@ public class Person : IFeature
         // Person person5 = new Person("John");
         // Person person6 = new();
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

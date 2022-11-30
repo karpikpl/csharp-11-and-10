@@ -17,6 +17,8 @@ public class Utf8StringLiterals : IFeature
         byte[] array = "Hello UTF-8 String Literals"u8.ToArray();
 
         Console.WriteLine($"Starting string was {Encoding.UTF8.GetString(array)}. Array was {array.Length} bytes long. Span was {span.Length} bytes long.");
-        Console.WriteLine();
+
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

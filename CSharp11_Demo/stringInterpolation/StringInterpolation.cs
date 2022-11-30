@@ -29,7 +29,9 @@ public class StringInterpolation : IFeature
         Console.WriteLine("String interpolation allows new lines in the holes of interpolated strings.");
 
         new StringInterpolation().NewLinesInStringInterpolation();
-        Console.WriteLine();
+
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 
     #region dummy code

@@ -27,6 +27,7 @@ public class Widget : IWidget, IFeature
         Widget widget = new();
         Console.WriteLine($"Widget's answer to life the universe and everything: {widget.ProvideAnswer()}");
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

@@ -68,6 +68,7 @@ public class ListPatterns : IFeature
         text = "eye";
         Console.WriteLine($"Is {text} a palindrome? {listPatterns.IsPalindrome(text)}");
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

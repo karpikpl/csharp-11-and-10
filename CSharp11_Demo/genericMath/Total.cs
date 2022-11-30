@@ -29,6 +29,7 @@ public class GenericMath : IFeature
         totalDec++;
         Console.WriteLine($"Total decimal is {totalDec.Value} after two ++");
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

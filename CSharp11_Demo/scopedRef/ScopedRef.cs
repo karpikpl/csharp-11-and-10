@@ -28,6 +28,7 @@ public class ScopedRef : IFeature
         Span<char> values = stackalloc char[3] { 'T', 'o', 'm' };
         new Test().TestMethod(values);
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

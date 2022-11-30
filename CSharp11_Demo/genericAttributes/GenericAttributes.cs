@@ -31,7 +31,8 @@ public class GenericAttributes : IFeature
         var attribute = typeof(GenericAttributes).GetCustomAttribute<GenericAttribute<int>>();
         Console.WriteLine($"Generic attribute value: {attribute?.MyProperty}");
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 
     [Generic<string>("foo")]
