@@ -13,13 +13,13 @@
             var p2 = new Person_ValueType { FirstName = "Petter", LastName = "Smith" };
             var p3 = new Person_Class { FirstName = "John", LastName = "Doe" };
 
-            Console.WriteLine("Before: " + p1.ToString());
-            Console.WriteLine("Before: " + p2.ToString());
-            Console.WriteLine("Before: " + p3.ToString());
+            Console.WriteLine("Before: " + p1);
+            Console.WriteLine("Before: " + p2);
+            Console.WriteLine("Before: " + p3);
             Console.WriteLine(CheckName(p1, p2, p3) ? "Yes" : "No");
-            Console.WriteLine("After: " + p1.ToString());
-            Console.WriteLine("After: " + p2.ToString());
-            Console.WriteLine("After: " + p3.ToString());
+            Console.WriteLine("After: " + p1);
+            Console.WriteLine("After: " + p2);
+            Console.WriteLine("After: " + p3);
 
             Console.WriteLine("Press Enter to Exit");
             Console.ReadLine();
@@ -56,6 +56,7 @@
     {
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
+
         public override sealed string ToString() => $"({LastName}, {FirstName})";
     }
 
@@ -63,6 +64,7 @@
     {
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
+        
         public override string ToString() => $"({LastName}, {FirstName})";
     }
 }

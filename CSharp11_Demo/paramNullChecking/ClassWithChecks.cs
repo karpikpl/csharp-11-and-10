@@ -34,7 +34,10 @@ public class ClassWithChecks : IFeature
     public static void ShowFeature()
     {
         Console.WriteLine("-----> The !! null check operator");
+
         CallWithTry(() => ClassWithChecks.ValidateParams(null));
-        Console.WriteLine();
+        
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

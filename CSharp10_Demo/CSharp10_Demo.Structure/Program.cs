@@ -13,15 +13,17 @@ namespace CSharp10_Demo.Structure
             Console.ReadLine();
 
             var m1 = new Measurement();
-            Console.WriteLine(m1);  // output: NaN (Undefined)
+            Console.WriteLine("new Measurement(): {0}", m1);  // output: NaN (Undefined)
 
             var m2 = default(Measurement);
-            Console.WriteLine(m2);  // output: 0 ()
+            Console.WriteLine("default(Measurement): {0}", m2);  // output: 0 ()
 
             var ms = new Measurement[2]; //Here the array creation will populate each element with the default values.
-            Console.WriteLine(string.Join(", ", ms));  // output: 0 (), 0 ()
+            Console.WriteLine("new Measurement[2] joined: {0}", string.Join(", ", ms));  // output: 0 (), 0 ()
 
             //?? Why is the default value for Description not "Not Provided"?
+            // Answer: https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.defaultvalueattribute?view=net-7.0#remarks
+            // A DefaultValueAttribute will not cause a member to be automatically initialized with the attribute's value. You must set the initial value in your code.
 
             Console.WriteLine("Press Enter to Exit");
             Console.ReadLine();

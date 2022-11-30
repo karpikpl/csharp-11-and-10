@@ -29,6 +29,7 @@ public class NameOfScope
         var myAttribute = method.GetParameters()[1].GetCustomAttribute<MyAttribute>()!;
         Console.WriteLine($"Param attribute param name: {myAttribute.ParamName}");
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

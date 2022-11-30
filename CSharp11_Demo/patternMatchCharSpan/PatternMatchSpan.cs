@@ -35,6 +35,7 @@ public class PatternMatchSpan : IFeature
             Console.WriteLine("\tIs Hello, World!");
         }
 
-        Console.WriteLine();
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }

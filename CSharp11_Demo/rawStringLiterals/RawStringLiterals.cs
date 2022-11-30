@@ -25,16 +25,18 @@ public class RawStringLiterals : IFeature
         const string name = "John";
         const string lastName = "Doe";
 
-        string json =
-            $$"""
-            {
-                "Name": "{{name}}",
-                "LastName": "{{lastName}}"
-            }
-            """;
-        //  ^white space left of here is removed
+string json =
+    $$"""
+    {
+        "Name": "{{name}}",
+        "LastName": "{{lastName}}"
+    }
+    """;
+//  ^white space left of here is removed
 
         Console.WriteLine(json);
-        Console.WriteLine();
+        
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }
