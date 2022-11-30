@@ -13,13 +13,13 @@
             var p2 = new Person_ValueType { FirstName = "Petter", LastName = "Smith" };
             var p3 = new Person_Class { FirstName = "John", LastName = "Doe" };
 
-            Console.WriteLine("Before: " + p1);
-            Console.WriteLine("Before: " + p2);
-            Console.WriteLine("Before: " + p3);
+            Console.WriteLine("record class (Reference Type) Before: " + p1);
+            Console.WriteLine("record struct (Value Type) Before: " + p2);
+            Console.WriteLine("class (Reference Type) Before: " + p3);
             Console.WriteLine(CheckName(p1, p2, p3) ? "Yes" : "No");
-            Console.WriteLine("After: " + p1);
-            Console.WriteLine("After: " + p2);
-            Console.WriteLine("After: " + p3);
+            Console.WriteLine("record class (Reference Type) After: " + p1);
+            Console.WriteLine("record struct (Value Type) After: " + p2);
+            Console.WriteLine("class (Reference Type) After: " + p3);
 
             Console.WriteLine("Press Enter to Exit");
             Console.ReadLine();

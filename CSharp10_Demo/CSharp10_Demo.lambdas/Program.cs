@@ -13,7 +13,7 @@
 
             var parse_lambda = (string s) => int.Parse(s);
             parse_func = parse_lambda;
-            Console.WriteLine($"Parseed 525: {parse_func("525")}");
+            Console.WriteLine($"Parsed 525: {parse_func("525")}");
 
             var SomethingElse = (int i) => { return i + 2; };
             Console.WriteLine($"Something Else: {SomethingElse(525)}");

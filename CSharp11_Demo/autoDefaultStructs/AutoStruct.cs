@@ -15,6 +15,8 @@ public struct AutoStruct : IFeature
         var autoStruct = new AutoStruct();
 
         Console.WriteLine($"AutoStruct has default values for all fields: {autoStruct.X}, {autoStruct.Name}, {autoStruct.Value}");
-        Console.WriteLine();
+        
+        Console.WriteLine("\nPress [any] key to continue...");
+        Console.ReadLine();
     }
 }
